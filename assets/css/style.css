@@ -1,0 +1,74 @@
+/*----------------------
+ Google font
+ ---------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  outline: none;
+  list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+.ToDoApp {
+    width: min(60rem, 90%);
+    margin: 5vw auto;
+    background-color: rgba(255, 255, 255, .2);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    padding: 2rem;
+    text-align: center;
+}
+.ToDoApp h1{
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+
+#taskInput{
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+  padding: .6rem 1.5rem;
+  margin-right: 1rem;
+
+}
+.ToDoApp button{
+  border-radius: .8rem;
+  padding: .6rem 1.6rem;
+}
+
+
+#listContainer{
+  margin-top: 4rem;
+  text-align: left;
+}
+
+#listContainer li{
+  /* box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2); */
+  padding: .5rem 1rem;
+  display: block;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+}
+#checkbox{
+  margin-right: 2rem;
+}
+#listContainer li span i{
+  color: brown;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
